@@ -136,7 +136,7 @@ export default function Home({ items }) {
     searchGuesstimate(query).then((itemsGuesstimate) => {
       // We enter the first level of asynchronous hell.
       let itemsTotal = items.concat(itemsGuesstimate);
-
+      // console.log(itemsTotal)
       let itemsFiltered = itemsTotal.filter(
         (item) =>
           item.qualityindicators.stars >= starsThreshold &&
