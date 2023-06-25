@@ -20,7 +20,7 @@
     "graphql-request": "^3.4.0",
     "mongodb": "^3.6.6",
     "multiselect-react-dropdown": "^1.6.7",
-    "next": "^10.0.4",
+    "next": "^13.4.7",
     "postcss": "^8.2.9",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
